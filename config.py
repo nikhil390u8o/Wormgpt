@@ -5,7 +5,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN environment variable is required")
 
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "chat_id"))
+ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "7450385463"))
 
 # Channels to join
 REQUIRED_CHANNELS = [
